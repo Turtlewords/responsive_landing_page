@@ -39,8 +39,8 @@ main {
 .outer {
     /* width: 95%;
     height: 95%; */
-    max-width: 620px;
-    
+    max-width: 465px;
+    max-height: 90%;
     overflow: hidden;
     background-color: #FFFFFF;
     border-radius: 1rem;
@@ -50,14 +50,12 @@ main {
 }
 
 .inner-one {
-   
+   max-height: 30%;
 }
 
 .inner-two {
-    display: flex;
-    gap: 0px;
-    flex-direction: column;
-    padding: 1.5rem;
+    
+    padding: 5%;
 }
 
 #add-to-cart {
@@ -85,6 +83,7 @@ main {
 .sub-head {
     letter-spacing: .5rem;
     text-transform: uppercase;
+    margin-bottom: .5rem;
 }
 
 h1 {
@@ -127,13 +126,14 @@ p {
 img {
     max-width: 100%;
     height: auto;
+    
 }
 
 
-@media (min-width:650px) {
+@media (min-width:723px) {
     .outer {
         display: flex;
-        max-height: 480px;
+        max-width: 650px;
     }
 
     .inner-one {
@@ -145,7 +145,7 @@ img {
     }
 
     img {
-        
+        max-height: 100%;
         height: 100%;
         
     }
